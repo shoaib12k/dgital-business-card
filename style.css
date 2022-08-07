@@ -1,0 +1,119 @@
+* {
+    box-sizing: border-box;
+    /* background-color: #23252C  */
+}
+
+.container{
+    max-width: 317px;
+    margin: auto;
+    background-color: #1A1B21;
+    border-radius: 12px;
+}
+#name{
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+    margin-bottom:3px; 
+    
+}
+#designation{
+    font-size: 12.8px;
+    color: #F3BF99;   
+    margin-top: 0px;
+    margin-bottom: 5px;
+}
+#website{
+    font-size: 10.24px;
+    color: #F5F5F5;
+    text-decoration: none;
+}
+.info-area{
+    /* background-color: red; */
+    flex-direction: column;
+    justify-content: center;
+    text-align: center
+}
+
+.info-area img{
+    width:100%;
+    border-radius: 12px 12px 0 0;
+}
+
+.btn-area{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    margin: 10px auto 0px auto;
+}
+/* 
+height: 9.600001335144043px;
+width: 12.79999828338623px;
+left: 1.600006103515625px;
+top: 3.20001220703125px;
+border-radius: 0px; */
+
+.btn img{
+    height: 10px;
+    width: 13px;
+    margin-top:12px;
+    margin-right: 10px;
+}
+
+.btn{
+    display: flex;
+    width: 115px;
+    height: 34px;
+    margin-top: 5px;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    padding: 0px 5px 0 5px;
+    border-radius: 10px;
+    margin: 10px;
+    font-size: 14px;
+    font-weight: medium;
+    cursor: pointer
+}
+.email-btn p, .linkedin-btn p{
+    margin-top: 9px
+}
+.email-btn{
+    background-color: #FFFFFF;
+    color: #1E1F26;
+}
+.linkedin-btn{
+    background-color: #5093E2;
+    color: white; 
+}
+
+.about, .interests{
+    margin: 20px 35px;
+}
+
+.heading{
+    font-weight: bold;
+    color: #F5F5F5;
+    font-size: 16px;
+    margin-bottom: 0;
+}
+.para{
+    font-weight: regular;
+    color: #DCDCDC;
+    font-size: 10.24px;
+    margin-top: 7px;
+}
+
+.footer{
+    background-color: #161619; 
+    border-radius: 0 0 12px 12px;
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    
+}
+
+.footer img{
+    margin:15px;
+    cursor: pointer;
+}
