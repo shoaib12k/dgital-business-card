@@ -1,4 +1,5 @@
-# co6c2472a9982f983f700b365
+
+This project is part of the Scrimba React Tutorials
 
 Quick start:
 
